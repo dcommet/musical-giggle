@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .class {
+        font-family: papyrus;
+      }
+    </style>
+  </head>
+  <body>
+    <P>
+      Hello, this is some pretty good practice here. Got a good image too! <em>Wowza!</em>
+    </p>
+    
+    <img src="http://people.emich.edu/dcommet/IMG_6648.JPG" />
+  </body>
+</html>
