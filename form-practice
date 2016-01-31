@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<body>
+		<h1>Enter your data:</h1>
+		<form action="http://people.emich.edu/egurnee/call-n-response.php" method="post">
+			<label>
+				Username:<input type="username" name="username" />
+			</label>
+			<br />
+			<label>
+				Password:<input type="password" name="password" />
+			</label>
+			<br />
+			<label>
+				First Name:<input type="text" name="first name" />
+			</label>
+			<br />
+			<label>
+				Last Name:<input type="text" name="last name" />
+			</label>
+			<br />
+			<label>
+				Age:<input type="number" name="age" />
+			</label>
+			<br />
+			<label>
+				John Stewart<input type="radio" value=”John Stewart” name=”comedian” />
+				Stephen Colbert<input type="radio" value="Stephen Colbert" name="comedian" />
+			</label>
+			<br />
+			<select multiple name="pokemon">
+				<option value="squirtle">Squirtle</option>
+				<option value="charmander">Charmander</option>
+				<option value="bulbasaur">Bulbasaur</option>
+				<option value="pikachu">Pikachu</option>
+			</select>
+			<br />
+			<label>
+				bacon<input type="checkbox" name="pizza[0]" value="bacon" />
+				pineapple<input type="checkbox" name="pizza[1]" value="pineapple" />
+				feta cheese<input type="checkbox" name="pizza[2] value="feta cheese" />
+				french fries<input type="checkbox" name="pizza[3] value="french fries" />
+				another pizza<input type="checkbox" name="pizza[4] value="another pizza" />
+			</label>
+			<br />
+			<input type="submit" value="Submit"/>
+		</form>
+	<body>
+<html>
