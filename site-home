@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+	<head>
+	
+		<title>My first webpage</title>
+		
+		<p><center class="blue"><strong>Dustin Commet</strong></center></p>
+		
+	<script type="text/javascript" src="http://gc.kis.scr.kaspersky-labs.com/1B74BD89-2A22-4B93-B451-1C9E1052A0EC/main.js" charset="UTF-8"></script></head>
+	
+	<style>
+		body {
+			background-color: lightblue;
+		}
+		
+		.blue {
+			color: blue;
+		}
+		
+		.lightblue {
+			background-color: AliceBlue;
+		}
+		
+		.side {
+			float: right;
+		}
+		
+		.border {
+			border-style: solid;
+			font-family: arial, sans;
+		}
+		
+		.center {
+			text-align: center;
+		}
+		
+		.paragraph {
+			float: left;
+			width: 49%;
+		}
+	
+	</style>
+	
+	<hr />
+	
+	<body>
+	
+		<p class="border paragraph" border="1">
+			My name is Dustin Commet and I am currently a student at 
+			<Strong>Eastern Michigan University</strong>. I am studying <em>Computer Science</em> 
+			with a minor in <em>Communication</em>. I am also currently employed 
+			at the EMU Honors College. My hobbies include mostly playing 
+			games, reading, or watching TV or Movies -- I just generally enjoy
+			Story-telling through various forms of media. I can be recognized 
+			as the tall child with the big face in my supplied photo.
+			
+		</p>
+		
+		<img src="IMG_6648.JPG" width="500px" />
+		
+		<table border="1">
+		
+			<thead>
+				<center class="blue"><strong>Classes</strong></center>
+			</thead>
+			
+			<tr class="blue">
+				<th>Class name</th>
+				<th>Course number</th>
+				<th>Days meeting</th>
+				<th>Time start</th>
+				<th>Time end</th>
+				<th>Teacher name</th>
+				<th>Room number</th>
+			</tr>
+			
+			<tr class="lightblue">
+				<td>Intro to Cultural Anthropolgy</td>
+				<td>ANTH 135</td>
+				<td class="center">TR</td>
+				<td>2:00 P.M.</td>
+				<td>3:15 P.M.</td>
+				<td>E. L. Cerroni-Long</td>
+				<td>Pray-Harold Hall 302</td>
+			</tr>
+			
+			<tr>
+				<td>Internet-based Computing</td>
+				<td><a href="people.emich.edu/dcommet/231">COSC 231</a></td>
+				<td class="center">MW</td>
+				<td>7:20 P.M.</td>
+				<td>8:35 P.M.</td>
+				<td>Edward P. Gurnee</td>
+				<td>Pray-Harold Hall 503</td>
+			</tr>
+			
+			<tr class="lightblue">
+				<td>Algorithms & Data Structures</td>
+				<td>COSC 311</td>
+				<td class="center">MW</td>
+				<td>2:00 P.M.</td>
+				<td>3:15 P.M.</td>
+				<td>Matthew Evett</td>
+				<td>Pray-Harold Hall 203</td>
+			</tr>
+			
+			<tr>
+				<td>Programming Languages</td>
+				<td>COSC 341</td>
+				<td class="center">TR</td>
+				<td>5:30 P.M</td>
+				<td>6:45 P.M.</td>
+				<td>Suchindran Maniccam</td>
+				<td>Pray-Harold Hall 203</td>
+			</tr>
+			
+			<tr class="lightblue">
+				<td>Math Structures for Computer Science</td>
+				<td>MATH 205</td>
+				<td class="center">MTWR</td>
+				<td>11:00 A.M.</td>
+				<td>11:50 A.M.</td>
+				<td>Jiuqiang Liu</td>
+				<td>Pray-Harold Hall 305</td>
+			</tr>
+			
+		</table>
+	
+		<p>
+			Top four Marvel villains:
+		</p>
+		
+		<ol>
+			<li>Winter Soldier</li>
+			<li>Green Goblin</li>
+			<li>Kingpin</li>
+			<li>Bullseye</li>
+		</ol>
+	
+	</body>
+
+</html>
