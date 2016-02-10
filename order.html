@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Order some Legos!</title>
+    <style>
+		.yes {
+			padding: 6px;
+		}
+		
+		.yes2 {
+			margin: auto;
+			width: 20%;
+			padding: 10px;
+		}
+	</style>
+	<script type="text/javascript">
+		var loc = 'http://lego.wikia.com/wiki/Avatar:_The_Last_Airbender';
+			images = [
+				'http://vignette1.wikia.nocookie.net/lego/images/5/51/3829-1.jpg/revision/latest/scale-to-width-down/50?cb=20101216003117.jpg',
+				'http://vignette2.wikia.nocookie.net/lego/images/6/66/Avatarairfort.png/revision/latest/scale-to-width-down/50?cb=20101231164930.jpg'
+			]
+			
+		function changeImage(imageNum){
+			if(imageNum != other){
+				document.getElementById('image').src = loc + images[imageNum];
+			}
+			else {
+				document.getElementById('image').src = document.getElementById('other').value = google.com;
+			}
+		}
+		
+		document.getElementById('desc').innerHTML = 'string';
+
+
+	</script>
+	
+	<link rel:"stylesheet" type:"text/css" href:"order.css" />
+  </head>
+  
+  <body>
+	<div id="content" class="yes2">
+		<h1>Order your Legos here!</h1>
+    
+		<h3>Please fill out the order form below!</h3>
+	</div>
+    <div id="content">
+		<form class="yes, yes2" action="blank.blank" method="post">
+				<label>
+					First Name:<input type="text" name="first name" />
+				</label>
+				<br />
+				<br />
+				<label>
+					Last Name:<input type="text" name="last name" />
+				</label>
+				<br />
+				<br />
+				<label>
+					City: <input type="text" name="city" />
+				</label>
+				<br />
+				<br />
+				<label>
+					State: <input type="text" name="state" />
+				</label>
+				<br />
+				<br />
+				<label>
+					ZIP: <input type="number" name="zip" />
+				</label>
+				<br />
+				<br />
+				<label>
+					E-mail: <input type="text" name="email" />
+				</label>
+				<br />
+				<br />
+				<label>
+					Birthday: <input type="text" name="birth" />
+				</label>
+				<br />
+				<br />
+				<label>
+					Credit Card Number: <input type="text" name="credit" />
+				</label>
+				<br />
+				<br />
+				
+				<img id=”image” src=”” height=”200px” />
+				<br /> 
+				<select onchange="changeImage(this.value)">
+					<option value="0"> Fire Nation Ship - $290</option>
+					<option value="1"> Air Temple - $100</option>
+					<option value="other"></option>
+				</select> 
+				<input type="text" value />
+				<script>
+					changeImage(0);
+				</script>
+		</form>
+	</div>
+  </body>
+
+</html>
